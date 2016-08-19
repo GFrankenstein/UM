@@ -1,0 +1,7 @@
+#!/bin/bash
+rm molpro_run.sh
+for name in `ls -v *.com`
+do
+        echo '$m' $name >> molpro_run.sh
+done
+chmod u+x molpro_run.sh

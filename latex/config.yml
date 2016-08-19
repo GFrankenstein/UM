@@ -1,0 +1,28 @@
+default:
+  font: Helvetica
+  bold: "{* Bold}"
+  mono: Andale Mono
+  prechap: "Chapter "
+  postchap: ""
+  presect: "Section "
+  postsect: ""
+  dql: "“"
+  dqr: "”"
+  con: "Contents"
+  fig: "Figure "
+  tab: "Table "
+  indent: "\\qquad"
+  thanks: "手册简单地修改于 GitHub 上的 Pro Git Book (progit) 项目模板，从而利用 Pandoc 完成轻量级 Markdown 文稿输出 PDF 手册。相关术语和细节，请参考正文部分。"
+zh:
+  langrule: "\\XeTeXlinebreakskip=0em plus 0.1em minus 0.01em\n\\XeTeXlinebreakpenalty=0"
+  font: Adobe Song Std
+  bold: Adobe Heiti Std
+  mono: Andale Mono
+  prechap: "第"
+  postchap: "章"
+  presect: ""
+  postsect: "节"
+  con: "目录"
+  fig: "图 "
+  tab: "表 "
+  indent: "文"

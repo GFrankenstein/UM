@@ -1,0 +1,5 @@
+ ***,tms-CBD
+  gprint,orbitals=30
+  memory,1900,m
+  symmetry,XZ,YZ
+  geometry={

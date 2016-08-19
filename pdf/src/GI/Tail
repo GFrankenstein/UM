@@ -1,0 +1,24 @@
+}
+  basis,C1=6-31G(d),Si=sto-3g,C=sto-3g,H=sto-3g
+
+hf;
+!put,molden,hf-tmsCBD2A.orb;
+
+{multi;
+rotate,23.1,22.1,0;
+closed,22,22,22,22;
+occ,25,25,25,25;
+wf,188,1,0;
+state,2;
+natorb,ci;
+}
+!put,molden,cas-tmsCBD2A.orb;
+---
+{multi;
+closed,22,22,22,22;
+occ,25,25,25,25;
+wf,188,1,0;
+state,2;
+natorb,ci;
+}
+!put,molden,cas-tmsCBD2Arms.orb;
